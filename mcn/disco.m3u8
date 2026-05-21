@@ -1,9 +1,9 @@
 #EXTM3U
 #EXT-X-VERSION:3
 
-#--- Audio Track 1 (Default) ---
+#--- Audio Tracks ---
 #EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio",NAME="Hindi",DEFAULT=YES,AUTOSELECT=YES,URI="http://maxotts.maxdigitaltv.com/x-media/C91/audio_track2.m3u8"
 
-#--- Forced 720p Video Track ---
-#EXT-X-STREAM-INF:BANDWIDTH=800000,RESOLUTION=1280x720,AUDIO="audio"
+#--- Adaptive Dynamic Track ---
+#EXT-X-STREAM-INF:BANDWIDTH=500000-2500000,RESOLUTION=1280x720,AUDIO="audio"
 http://maxotts.maxdigitaltv.com/x-media/C91/index.m3u8
